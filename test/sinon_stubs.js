@@ -9,12 +9,16 @@ var inspector = {
   },
   getDevice: function() {
     return this.getWindowSize() <= 480 ? 'mobile' : 'desktop';
-  }
+  },
+  printDevice: function() {
+    return 'device';
+  },
 };
 
 it('When width < 480, return mobile', function() {
   sinon.stub(inspector, 'getWindowSize');
   inspector.getWindowSize.returns(479);
+
   device = inspector.getDevice();
 
   expect(device).to.equal('mobile');

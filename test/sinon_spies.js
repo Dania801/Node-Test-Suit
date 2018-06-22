@@ -14,7 +14,7 @@ PageTracking.prototype.sendTracking = function (options) {
 };
 
 
-it.only('call sendTracking with options', function() {
+it('call sendTracking with options', function() {
   var pageTracking = new PageTracking({
     product: 'cap',
     category: 'acessories'

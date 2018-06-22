@@ -698,6 +698,10 @@ proxy-addr@~2.0.3:
     forwarded "~0.1.2"
     ipaddr.js "1.6.0"
 
+pubsub-js@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/pubsub-js/-/pubsub-js-1.6.0.tgz#232d36485ce7905a54629ec5783d9f6f4c638026"
+
 qs@2.0.x:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-2.0.0.tgz#423344d2a1324a8eb721e27586d79518ff0787cf"
