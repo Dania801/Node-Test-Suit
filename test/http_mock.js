@@ -2,7 +2,7 @@ const expect = require('chai').expect;
 const nock = require('nock');
 
 const getUser = require('../translator/git').getUser;
-const response = require('./response');
+const response = require('./data/response');
 
 describe('Get User tests', () => {
   // this method is like testing the github api instead of testing our application

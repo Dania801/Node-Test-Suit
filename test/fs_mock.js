@@ -13,7 +13,7 @@ describe('BASICS', () => {
 /*
 describe('text module', function() {
     it('should return correct translations from a file', function( done ) {
-        translate( __dirname + '/phrases.json', 'es', function(err, data) {
+        translate( __dirname + '/data/phrases.json', 'es', function(err, data) {
             if (err) { return done( err ); }
 
             assert.equal( data.length, 3 );
@@ -44,7 +44,7 @@ describe('text module with mock', function() {
 
     it('should return correct translations from a file', function( done ) {
         var translate = require('../translator/text');
-        translate( __dirname + '/phrases.json', 'es', function(err, data) {
+        translate( __dirname + '/data/phrases.json', 'es', function(err, data) {
 
             if (err) { return done( err ); }
 
