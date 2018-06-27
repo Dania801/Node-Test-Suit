@@ -56,7 +56,7 @@ describe('DELETE', function() {
   });
 });
 
-describe('DELETE', function() {
+describe('Update', function() {
   it('should post a new book', function(done) {
     let book = {
       title: "The Lordee of the Rings",
